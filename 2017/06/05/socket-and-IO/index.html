@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="Socket and SocketServerSocketsocket提供两种功能，一种是为客户端服务的，一种是作为服务器端的基础服务单元工作。作为客户端使用时，socket的使用方法还是比较简单的。在这里我们可以写一个简单的例子。123456789import socketHOST = &apos;daring.cwi.nl&apos;    PORT = 50007              with socke">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/01/25/hello-world/index.html">
+<meta property="og:title" content="一些关于python socket和server的东西">
+<meta property="og:url" content="http://yoursite.com/2017/06/05/socket-and-IO/index.html">
 <meta property="og:site_name" content="Emntee">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Socket and SocketServerSocketsocket提供两种功能，一种是为客户端服务的，一种是作为服务器端的基础服务单元工作。作为客户端使用时，socket的使用方法还是比较简单的。在这里我们可以写一个简单的例子。123456789import socketHOST = &apos;daring.cwi.nl&apos;    PORT = 50007              with socke">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-25T13:56:33.247Z">
+<meta property="og:updated_time" content="2018-01-26T01:39:25.193Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="一些关于python socket和server的东西">
+<meta name="twitter:description" content="Socket and SocketServerSocketsocket提供两种功能，一种是为客户端服务的，一种是作为服务器端的基础服务单元工作。作为客户端使用时，socket的使用方法还是比较简单的。在这里我们可以写一个简单的例子。123456789import socketHOST = &apos;daring.cwi.nl&apos;    PORT = 50007              with socke">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/01/25/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/06/05/socket-and-IO/"/>
 
 
 
 
 
-  <title>Hello World | Emntee</title>
+  <title>一些关于python socket和server的东西 | Emntee</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/25/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/05/socket-and-IO/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jian Xu">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">一些关于python socket和server的东西</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-25T21:56:33+08:00">
-                2018-01-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-05T21:26:33+08:00">
+                2017-06-05
               </time>
             
 
@@ -299,15 +299,16 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="Socket-and-SocketServer"><a href="#Socket-and-SocketServer" class="headerlink" title="Socket and SocketServer"></a>Socket and SocketServer</h1><h2 id="Socket"><a href="#Socket" class="headerlink" title="Socket"></a>Socket</h2><p>socket提供两种功能，一种是为客户端服务的，一种是作为服务器端的基础服务单元工作。<br>作为客户端使用时，socket的使用方法还是比较简单的。在这里我们可以写一个简单的例子。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"></span><br><span class="line">HOST = <span class="string">'daring.cwi.nl'</span>    </span><br><span class="line">PORT = <span class="number">50007</span>              </span><br><span class="line"><span class="keyword">with</span> socket.socket(socket.AF_INET, socket.SOCK_STREAM) <span class="keyword">as</span> s:</span><br><span class="line">    s.connect((HOST, PORT))</span><br><span class="line">    s.sendall(<span class="string">b'Hello, world'</span>)</span><br><span class="line">    data = s.recv(<span class="number">1024</span>)</span><br><span class="line">print(<span class="string">'Received'</span>, repr(data))</span><br></pre></td></tr></table></figure></p>
+<p>AF_INET是address family类型，主要是IPv4类型，UNIX也有自己的address family，但UNIX类型的不涉及ip，主要是用于IPC。另外需要注意的是python3里socket发送的均为二进制，这样可能是有效处理了大端小端的问题。<br>另外一种是作为服务器端的socket，这里处理相对是复杂一点。涉及到的主要的几个函数包括bind, listen, accept, recv, send(all)<br>下面是官方文档里的例子。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"></span><br><span class="line">HOST = <span class="string">''</span>                 </span><br><span class="line">PORT = <span class="number">50007</span>              </span><br><span class="line"><span class="keyword">with</span> socket.socket(socket.AF_INET, socket.SOCK_STREAM) <span class="keyword">as</span> s:</span><br><span class="line">    s.bind((HOST, PORT))</span><br><span class="line">    s.listen(<span class="number">1</span>)</span><br><span class="line">    conn, addr = s.accept()</span><br><span class="line">    <span class="keyword">with</span> conn:</span><br><span class="line">        print(<span class="string">'Connected by'</span>, addr)</span><br><span class="line">        <span class="keyword">while</span> <span class="keyword">True</span>:</span><br><span class="line">            data = conn.recv(<span class="number">1024</span>)</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> data: <span class="keyword">break</span></span><br><span class="line">            conn.sendall(data)</span><br></pre></td></tr></table></figure></p>
+<p>这里是一些基础的使用方法，但实际编写服务器程序时，我们还需要关注一些细节上的东西，比如使用并发提高效率等。  </p>
+<h1 id="Socket-Server"><a href="#Socket-Server" class="headerlink" title="Socket Server"></a>Socket Server</h1><p>ocketserver这个模块提供了一些server的python实现，但这个模块更多的是提供了类似一个模板或者规范，类似于wsgiref。这个模块主要涉及到BaseServer, TCPServer, UDPServer, BaseRequestHandler, StreamRequestHandler, DatagramRequestHandler。<br>从BaseHttpServer入手，这里有几个接口需要关注一下，分别是server_forever, handle_one_request, get_request, verify_request, process_request, finish_request，其中</p>
+<ol>
+<li>serve_forever与handle_one_request两个都是用于处理请求，只不过handle_one_request只处理一个请求，而server_forever更多的是通过循环，select或者epoll这些方法来持续处理request。  </li>
+<li>get_request固定返回request和address， 但TCP，UDP返回的request并不相同， TCP直接调用socket的accept方法获取socket, address， 而UDP则是通过recvfrom，最终返回socket, data作为request参数。  </li>
+<li>process_request主要是从并发角度来处理request。  </li>
+<li>finish_request主要工作是将request传递给handler，由handler来处理request。<br>那么这样来看，可不可以就这样认为？BaseServer以及作为分支的TCPServer, UDPServer这一段的主要功能就是获取request，然后关注任务的分发工作。因为到finish_request这一段，把request分发给handler之后，它就不再负责request的后续处理了。<br>接下来的主要工作基本都是到了HTTPServer，WSGIServer这些层面来做细化处理。</li>
+</ol>
 
       
     </div>
@@ -332,15 +333,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/06/18/tcl-tutorial/" rel="next" title="tcl tutorial">
-                <i class="fa fa-chevron-left"></i> tcl tutorial
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/06/07/git-tutorial/" rel="prev" title="git tutorial">
+                git tutorial <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -454,7 +455,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Socket-and-SocketServer"><span class="nav-number">1.</span> <span class="nav-text">Socket and SocketServer</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Socket"><span class="nav-number">1.1.</span> <span class="nav-text">Socket</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Socket-Server"><span class="nav-number">2.</span> <span class="nav-text">Socket Server</span></a></li></ol></div>
             
 
           </div>

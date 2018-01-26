@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Emntee">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="tcl命令 通用格式 commandName argument1 argument2 … argumentN 例如: puts &amp;quot;hello world&amp;quot;  参数合并 上例通过 “”来将”hello”与”world”两个参数归纳成一个，除此以外还可以使用{}来进行同样操作。 puts {hello world}  命令替换 我们可以通过方括号进行命令替换: puts [ exp">
+<meta property="og:type" content="article">
+<meta property="og:title" content="tcl tutorial">
+<meta property="og:url" content="http://yoursite.com/2017/06/18/tcl-tutorial/index.html">
 <meta property="og:site_name" content="Emntee">
+<meta property="og:description" content="tcl命令 通用格式 commandName argument1 argument2 … argumentN 例如: puts &amp;quot;hello world&amp;quot;  参数合并 上例通过 “”来将”hello”与”world”两个参数归纳成一个，除此以外还可以使用{}来进行同样操作。 puts {hello world}  命令替换 我们可以通过方括号进行命令替换: puts [ exp">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-06-18T16:08:54.342Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Emntee">
+<meta name="twitter:title" content="tcl tutorial">
+<meta name="twitter:description" content="tcl命令 通用格式 commandName argument1 argument2 … argumentN 例如: puts &amp;quot;hello world&amp;quot;  参数合并 上例通过 “”来将”hello”与”world”两个参数归纳成一个，除此以外还可以使用{}来进行同样操作。 puts {hello world}  命令替换 我们可以通过方括号进行命令替换: puts [ exp">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/06/18/tcl-tutorial/"/>
 
 
 
 
 
-  <title>Emntee</title>
+  <title>tcl tutorial | Emntee</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,137 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/25/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jian Xu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Emntee">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/01/25/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-25T21:56:33+08:00">
-                2018-01-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -374,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/06/18/tcl-tutorial/" itemprop="url">tcl tutorial</a></h1>
+          <h1 class="post-title" itemprop="name headline">tcl tutorial</h1>
         
 
         <div class="post-meta">
@@ -426,9 +299,7 @@
       
 
       
-        
-          
-            <h1 id="tcl命令"><a href="#tcl命令" class="headerlink" title="tcl命令"></a>tcl命令</h1><ol>
+        <h1 id="tcl命令"><a href="#tcl命令" class="headerlink" title="tcl命令"></a>tcl命令</h1><ol>
 <li><p>通用格式<br> commandName argument1 argument2 … argumentN<br> 例如:</p>
 <pre><code>puts &quot;hello world&quot;
 </code></pre></li>
@@ -779,8 +650,6 @@ puts [array names personA]
 </li>
 </ol>
 
-          
-        
       
     </div>
     
@@ -797,142 +666,32 @@ puts [array names personA]
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/07/git-tutorial/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jian Xu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Emntee">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/06/07/git-tutorial/" itemprop="url">git tutorial</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-07T21:10:24+08:00">
-                2017-06-07
-              </time>
+              <a href="/2017/06/07/git-tutorial/" rel="next" title="git tutorial">
+                <i class="fa fa-chevron-left"></i> git tutorial
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
+              <a href="/2018/01/25/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="some-basic-commands-in-git"><a href="#some-basic-commands-in-git" class="headerlink" title="some basic commands in git"></a>some basic commands in git</h1><h2 id="for-local-operation"><a href="#for-local-operation" class="headerlink" title="for local operation"></a>for local operation</h2><ol>
-<li><p>initializtion<br><code>git init</code><br>initialize a repo for your work  </p>
-</li>
-<li><p>update a commit<br><code>git add</code><br>step 1. add file top stage( or index)<br><code>git commit -m &quot;comment&quot;</code><br>step 2. make the commit operation with a comment  </p>
-</li>
-<li>version reverse<br><code>git reset --hard HEAD^*</code><br>or <code>git reset --hard HEAD^~n</code><br>how many reverse operation will be executed depends on how many “^” included or the “n” after “~”<br>pay attention to HEAD, index(or stage) and master here. HEAD is the pointer which points to the current version, after every version switch, it will point to the very version.  index play the role of storage for <code>what has changed</code> compared to the current master branch. After commit operation, contents in index will be pushed to master. How many add operations you’ve performed, changes will be stored in index, and after one commit operation, all changes will be merged into master at once.</li>
-<li>interversion jump<br><code>git reset --hard commit id</code><br>no need to input the full commit id, just ensure its identical enough, 7 bits is recommended  </li>
-<li>cancellation<br><code>git checkout file</code><br>more exactly is get a copy from master branch, can be useful when you’ve get your file all of a mess, and you just want to restore it.  </li>
-<li>remove file<br><code>git rm file</code><br>…  </li>
-<li>take a look at what you’ve done<br><code>git log</code> or <code>git reflog</code><br><code>git log</code> shows you how many versions are till now has been committed except those dropped by you. like when you switch from 9 to 7, 8, 9 will not show in log, but they are also points you can restore to. To make this, you need <code>reflog</code>.<br><code>git reflg</code> shows you all operations you had executed, at the first part of the line, you will know which version is now up to after execution of the command. when you restored from 9 to 8, you can get commit id of 9 in previous operation history record.</li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -942,139 +701,11 @@ puts [array names personA]
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/05/socket-and-IO/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jian Xu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Emntee">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/06/05/socket-and-IO/" itemprop="url">一些关于python socket和server的东西</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-05T21:26:33+08:00">
-                2017-06-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="Socket-and-SocketServer"><a href="#Socket-and-SocketServer" class="headerlink" title="Socket and SocketServer"></a>Socket and SocketServer</h1><h2 id="Socket"><a href="#Socket" class="headerlink" title="Socket"></a>Socket</h2><p>socket提供两种功能，一种是为客户端服务的，一种是作为服务器端的基础服务单元工作。<br>作为客户端使用时，socket的使用方法还是比较简单的。在这里我们可以写一个简单的例子。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"></span><br><span class="line">HOST = <span class="string">'daring.cwi.nl'</span>    </span><br><span class="line">PORT = <span class="number">50007</span>              </span><br><span class="line"><span class="keyword">with</span> socket.socket(socket.AF_INET, socket.SOCK_STREAM) <span class="keyword">as</span> s:</span><br><span class="line">    s.connect((HOST, PORT))</span><br><span class="line">    s.sendall(<span class="string">b'Hello, world'</span>)</span><br><span class="line">    data = s.recv(<span class="number">1024</span>)</span><br><span class="line">print(<span class="string">'Received'</span>, repr(data))</span><br></pre></td></tr></table></figure></p>
-<p>AF_INET是address family类型，主要是IPv4类型，UNIX也有自己的address family，但UNIX类型的不涉及ip，主要是用于IPC。另外需要注意的是python3里socket发送的均为二进制，这样可能是有效处理了大端小端的问题。<br>另外一种是作为服务器端的socket，这里处理相对是复杂一点。涉及到的主要的几个函数包括bind, listen, accept, recv, send(all)<br>下面是官方文档里的例子。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"></span><br><span class="line">HOST = <span class="string">''</span>                 </span><br><span class="line">PORT = <span class="number">50007</span>              </span><br><span class="line"><span class="keyword">with</span> socket.socket(socket.AF_INET, socket.SOCK_STREAM) <span class="keyword">as</span> s:</span><br><span class="line">    s.bind((HOST, PORT))</span><br><span class="line">    s.listen(<span class="number">1</span>)</span><br><span class="line">    conn, addr = s.accept()</span><br><span class="line">    <span class="keyword">with</span> conn:</span><br><span class="line">        print(<span class="string">'Connected by'</span>, addr)</span><br><span class="line">        <span class="keyword">while</span> <span class="keyword">True</span>:</span><br><span class="line">            data = conn.recv(<span class="number">1024</span>)</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> data: <span class="keyword">break</span></span><br><span class="line">            conn.sendall(data)</span><br></pre></td></tr></table></figure></p>
-<p>这里是一些基础的使用方法，但实际编写服务器程序时，我们还需要关注一些细节上的东西，比如使用并发提高效率等。  </p>
-<h1 id="Socket-Server"><a href="#Socket-Server" class="headerlink" title="Socket Server"></a>Socket Server</h1><p>ocketserver这个模块提供了一些server的python实现，但这个模块更多的是提供了类似一个模板或者规范，类似于wsgiref。这个模块主要涉及到BaseServer, TCPServer, UDPServer, BaseRequestHandler, StreamRequestHandler, DatagramRequestHandler。<br>从BaseHttpServer入手，这里有几个接口需要关注一下，分别是server_forever, handle_one_request, get_request, verify_request, process_request, finish_request，其中</p>
-<ol>
-<li>serve_forever与handle_one_request两个都是用于处理请求，只不过handle_one_request只处理一个请求，而server_forever更多的是通过循环，select或者epoll这些方法来持续处理request。  </li>
-<li>get_request固定返回request和address， 但TCP，UDP返回的request并不相同， TCP直接调用socket的accept方法获取socket, address， 而UDP则是通过recvfrom，最终返回socket, data作为request参数。  </li>
-<li>process_request主要是从并发角度来处理request。  </li>
-<li>finish_request主要工作是将request传递给handler，由handler来处理request。<br>那么这样来看，可不可以就这样认为？BaseServer以及作为分支的TCPServer, UDPServer这一段的主要功能就是获取request，然后关注任务的分发工作。因为到finish_request这一段，把request分发给handler之后，它就不再负责request的后续处理了。<br>接下来的主要工作基本都是到了HTTPServer，WSGIServer这些层面来做细化处理。</li>
-</ol>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -1082,6 +713,10 @@ puts [array names personA]
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1102,8 +737,17 @@ puts [array names personA]
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1145,6 +789,22 @@ puts [array names personA]
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#tcl命令"><span class="nav-number">1.</span> <span class="nav-text">tcl命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#tcl数据类型"><span class="nav-number">2.</span> <span class="nav-text">tcl数据类型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#变量"><span class="nav-number">3.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运算符"><span class="nav-number">4.</span> <span class="nav-text">运算符</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#决策"><span class="nav-number">5.</span> <span class="nav-text">决策</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#循环"><span class="nav-number">6.</span> <span class="nav-text">循环</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数组"><span class="nav-number">7.</span> <span class="nav-text">数组</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#字符串"><span class="nav-number">8.</span> <span class="nav-text">字符串</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1278,6 +938,10 @@ puts [array names personA]
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
